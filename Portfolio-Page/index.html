@@ -1,135 +1,259 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <!-- Icons  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
 
-  </head>
-  <body>
-    <main>
-        <section class="container my-5 d-flex justify-content-between">
-            <div>
-                <img width= 100 src="assets/Profile.png" alt="..." class="img-thumbnail rounded-circle">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Icons  -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <main>
+    <section class="container my-5 d-flex justify-content-between align-items-center">
+      <div>
+        <img src="assets/Profile.jpg" alt="..." class="img-fluid rounded-circle"
+          style="height: 150px; width: 160px; object-fit: cover;">
+      </div>
+      <div>
+        <p class="h1">Isha Sunam</p>
+        <p class="h6"><i class="bi bi-telephone pr-2"></i><a href="tel:+9779852020886">9852020886</a></p>
+        <p class="h6"><i class="bi bi-envelope pr-2"></i><a href="mailto:isha@sriyog.com">isha@sriyog.com</a></p>
+        <p class="h6"><i class="bi bi-geo-alt-fill pr-2"></i>Biratnagar, Nepal</p>
+        <i class="bi bi-linkedin pr-2"></i><a target="_blank"
+          href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Isha
+          Sunam</a>
+      </div>
+    </section>
+
+    <section class="container-fluid p-3 bg-light text-dark">
+      <div class="container">
+        <h4>Career Objective</h4>
+        <ul class="list-unstyled">
+          <li>With a decade of experience in IT management, successfully led a team of 20+ in implementing a
+            company-wide digital transformation, resulting in a 40% increase in operational efficiency. Previous
+            employers implemented cybersecurity measures that reduced security breaches by 60%. Skilled in managing
+            global teams and liaising with C-suite executives.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container-fluid p-3 text-dark">
+      <div class="container">
+        <h4>Education</h4>
+      </div>
+      <div>
+        <table class="table container table-bordered">
+          <thead class="bg-dark text-white">
+            <tr>
+              <th scope="col" class="text-center">Course</th>
+              <th scope="col" class="text-center">School</th>
+              <th scope="col" class="text-center">Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Doctor of Philosophy in Civil and Environmental Engineering</th>
+              <td>University of Illinois at Urbana-Champaign</td>
+              <td>Expected Fall 20XX</td>
+
+            </tr>
+            <tr>
+              <th scope="row">Bachelor of Science in Civil Engineering
+              </th>
+              <td>Universidad Nacional de San Juan, San Juan, Argentina (UNSJ)
+              </td>
+              <td>May 20XX
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="container-fluid p-3 bg-light text-dark">
+      <div class="container">
+        <h4>Work History</h4>
+        <div class="container d-flex justify-content-between py-2 px-0">
+          <div>
+            <p><strong>Graduate Research Assistant</strong> | Department of Civil Engineering, University of Illinois
+            </p>
+          </div>
+          <div>
+            20XX - Present
+          </div>
+        </div>
+        <ul>
+          <li>Design and execute small-scale testing to validate control algorithms derived to
+            simulate seismic force-resistance.
+          </li>
+          <li>Contribute to multi-disciplinary project aimed at developing visualizations and
+            simulations to predict seismic force damage to various materials.
+          </li>
+          <li>Collaborate and coordinate with faculty, staff scientists, and fellow graduate students
+            across departments.
+          </li>
+        </ul>
+        <div class="container d-flex justify-content-between p-0">
+          <div>
+            <p><strong>Undergraduate Consultant
+              </strong> | Departamento de Ingeniería, UNSJ</p>
+          </div>
+          <div>
+            20XX - 20XX
+          </div>
+        </div>
+        <ul>
+          <li>Selected by the General Director of the City Planning Department of San Juan, to
+            participate in the structural analysis and seismic assessment of the Dr. Guillermo
+            Rawson Hospital, one of the largest construction projects to date in the most
+            hazardous seismic area in Argentina.
+          </li>
+          <li>Collaborated with two other members of a team to carry out a nonlinear static
+            analysis of the structure - primary objective and main focus of the project - in
+            agreement with FEMA 356 Pre-standard for the Seismic Rehabilitation of buildings.
+          </li>
+        </ul>
+
+        </ul>
+      </div>
+    </section>
+    <section class="container-fluid p-3 .bg-secondary text-dark">
+      <div class="container">
+        <h4>Professional Training</h4>
+        <ul class="list-unstyled">
+          <li><strong>-Adobe Photoshop</strong>
+          </li>
+          <li><strong>-Figma</strong>
+          </li>
+          <li><strong>-Microsoft Office</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container-fluid p-3 bg-light text-dark">
+      <h4 class="container">Technical Skills</h4>
+      <!-- Different Skill Class -->
+      <div>
+        <div class="container p-2">
+          <h6>Programming languages and mathmateical packages: </h6>
+        </div>
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <p class="h6 mb-0 col-md-3">Matlab</p>
+            <div class="progress flex-grow-1 mx-3" style="height: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 62%; background-color: #727272;"
+                aria-valuenow="62" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div>
-                <p class="h6"><i class="bi bi-telephone pr-2"></i><a href="tel:+9779815315007">9815315007</a></p>
-                <p class="h6"><i class="bi bi-envelope pr-2"></i><a href="mailto:ryanthapa51@gmail.com">ryanthapa51@gmail.com</a></p>
-                <p class="h6"><i class="bi bi-geo-alt-fill pr-2"></i>Biratnagar,Nepal</p>
-                <i class="bi bi-linkedin pr-2"></i><a target="_blank" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Ryan Thapa</a>
+          </div>
+          <div class="d-flex align-items-center">
+            <p class="h6 mb-0 col-md-3">Mathematica</p>
+            <div class="progress flex-grow-1 mx-3" style="height: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #727272;"
+                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-        </section>
-        <section class="container-fluid p-3 bg-light text-dark">
-            <div class="container">
-                <h4>Education</h4>          
+          </div>
+          <div class="d-flex align-items-center">
+            <p class="h6 mb-0 col-md-3">C</p>
+            <div class="progress flex-grow-1 mx-3" style="height: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #727272;"
+                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div>
-                <table class="table container table-bordered">
-                    <thead class="bg-dark text-white">
-                      <tr>
-                        <th scope="col">Course</th>
-                        <th scope="col">School</th>
-                        <th scope="col">Board</th>
-                        <th scope="col">Score</th>
-                        <th scope="col">Year</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">B.E (CSE)</th>
-                        <td>B.M.S College of Engineering</td>
-                        <td>VTU</td>
-                        <td>8.16</td>
-                        <td>2015</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CLASS XII</th>
-                        <td>G.D. Goenka Public School Siliguri</td>
-                        <td>CBSE</td>
-                        <td>95%</td>
-                        <td>2021</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">CLASS X</th>
-                        <td>G.D. Goenka Public School Siliguri</td>
-                        <td>CBSE</td>
-                        <td>91.5%</td>
-                        <td>2019</td>
-                      </tr>
-                    </tbody>
-                  </table>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="container p-2">
+          <h6>Computer aided design/engineering: </h6>
+        </div>
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <p class="h6 mb-0 col-md-3"> Optical Imaging</p>
+            <div class="progress flex-grow-1 mx-3" style="height: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 85%; background-color: #727272;"
+                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-        </section>
-        <section class="container-fluid p-3 .bg-secondary text-dark">
-            <div class="container">
-                <h4>Summer Internship</h4>
-                <ul class="list-unstyled">
-                    <li>Virtual Internship <strong>- CODSOFT</strong></li>
-                      <ul>
-                        <li>Implemented simple webpages - Calculator, Portfolio and Landing Page</li>
-                      </ul>
-                    </li>
-                </ul>
+          </div>
+          <div class="d-flex align-items-center">
+            <p class="h6 mb-0 col-md-3">AutoCAD</p>
+            <div class="progress flex-grow-1 mx-3" style="height: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 33%; background-color: #727272;"
+                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-        </section>
-        <section class="container-fluid p-3 bg-light text-dark">
-            <div class="container">
-                <h4>Projects</h4>
-                <ul class="list-unstyled">
-                    <li><strong>E-Commerce Site for Gadgets - </strong><em>A full stack web development project</em>
-                    </li>
-                      <ul>
-                        <li>Collaborated in a team to design and develop a dynamic web application using HTML,CSS and Javascript to create a responsive and user-friendly interface.</li>
-                        <li>Implemented MongoDB for database management, ensuring efficient data storage and retrieval and utilized Node.js for server side logic</li>
-                        <li>Integrated Docker for containerization, streamlining the deployment process and enhancing scalability.</li>
-                      </ul>
-                    </li>
-                    <li><strong>HomeBite - Homemade Food Delivery App - </strong><em>Mobile Application Project</em>
-                    </li>
-                      <ul>
-                        <li>Project Description: Collaborated in a team to design and develop a homemade food delivery mobile application. 
-                        </li>
-                        <li>Utilized Figma for UI/UX design to create an intuitive and visually appealing user interface. 
-                        </li>
-                        <li>Developed the app using Flutter for cross-platform mobile development, ensuring compatibility with both Android and iOS devices. Implemented Firebase for backend services, including authentication, real-time database, and cloud storage.</li>
-                      </ul>
-                    </li>
-                </ul>
+          </div>
+          <div class="d-flex align-items-center">
+            <p class="h6 mb-0 col-md-3">Patran</p>
+            <div class="progress flex-grow-1 mx-3" style="height: 10px;">
+              <div class="progress-bar" role="progressbar" style="width: 44%; background-color: #727272;"
+                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-        </section>
-        <section class="container-fluid p-3 text-dark">
-            <h4 class="container">Skills</h4>
-            <div class="container">
-                <div class="d-flex align-items-center">
-                    <p class="h6 mb-0 col-md-3">C</p>
-                    <div class="progress flex-grow-1 mx-3" style="height: 10px;">
-                        <div class="progress-bar" role="progressbar" style="width: 65%; background-color: #727272;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center">
-                    <p class="h6 mb-0 col-md-3">Java</p>
-                    <div class="progress flex-grow-1 mx-3" style="height: 10px;">
-                        <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #727272;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center">
-                    <p class="h6 mb-0 col-md-3">Web Development</p>
-                    <div class="progress flex-grow-1 mx-3" style="height: 10px;">
-                        <div class="progress-bar" role="progressbar" style="width: 20%; background-color: #727272;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    
-        </script>
-    </main>
-    
-  </body>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section  class="container-fluid p-3 text-dark">
+      <div class="container">
+        <h4>Training / Seminar</h4>
+        <ul class="list-unstyled">
+          <li><strong>Programming languages and mathematical packages: </strong> Matlab, Mathematica, C, C ++
+          </li>
+          <li><strong>Computer aided design/engineering: </strong>optical imaging, AutoCAD, Patran, Abaqus.
+          </li>
+          <li><strong>Other: </strong>SPSS, Linux (openSUSE, Ubuntu), Mac OS, Windows OS
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container-fluid p-3 bg-light text-dark">
+      <div class="container">
+        <h4>Languages Known</h4>
+        <ul class="list-unstyled">
+          <li><strong>English: </strong> Fluent</li>
+          <li><strong>Spanish: </strong>Fluent</li>
+          <li><strong>French: </strong>Intermediate</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container-fluid .bg-secondary p-3 text-dark ">
+      <div class="container">
+        <h4>References</h4>
+        <ul class="list-unstyled">
+          <li>Ted S. Visor, Professor and Graduate Programs Head
+          </li>
+          <li>Department of Civil Engineering
+          </li>
+          <li>University of Illinois at Urbana-Champaign
+          </li>
+          <li class="mb-2">(217) 244-2345, email@illinois.edu
+          </li>
+          <li>John D. Faculty, Assistant Professor
+          </li>
+          <li>Department of Civil Engineering
+          </li>
+          <li>University of Illinois at Urbana-Champaign
+          </li>
+          <li>(217) 244-2345, email@illinois.edu
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+
+      </script>
+  </main>
+
+</body>
+
 </html>
