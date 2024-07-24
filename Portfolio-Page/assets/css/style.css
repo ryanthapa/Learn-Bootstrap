@@ -1,9 +1,13 @@
 a{
-    color: black;
+    color: rgb(26, 124, 170);
     cursor: pointer;
     text-decoration: none;
 }
 a:hover{
     text-decoration: none;
     color: rgb(76, 84, 63);
+}
+.container{
+    padding-left: 145px;
+    padding-right: 145px;
 }
